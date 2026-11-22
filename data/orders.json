@@ -1,0 +1,61 @@
+{
+  "seq": {
+    "date": "2026-11-22",
+    "n": 1
+  },
+  "orders": [
+    {
+      "id": "dc6fe46a-da15-47b6-8c2e-6823654708b7",
+      "numero": "001",
+      "status": "cancelado",
+      "createdAt": "2026-11-22T22:27:15.444Z",
+      "updatedAt": "2026-11-22T22:27:23.870Z",
+      "customer": {
+        "nome": "iannê souza fontenele",
+        "telefone": "+5588992330500",
+        "endereco": "Rua Fontenele Sobrinho, 431",
+        "complemento": "casa"
+      },
+      "payment": {
+        "metodo": "Pix",
+        "troco": ""
+      },
+      "notes": "",
+      "items": [
+        {
+          "produtoId": "b4",
+          "tipo": "produto",
+          "nome": "Batata com Cheddar",
+          "qtd": 1,
+          "preco": 24.9,
+          "adicionais": [],
+          "observacoes": ""
+        }
+      ],
+      "totals": {
+        "subtotal": 24.9,
+        "deliveryFee": null,
+        "deliveryFeeText": "A combinar",
+        "total": 24.9
+      },
+      "history": [
+        {
+          "status": "novo",
+          "at": "2026-11-22T22:27:15.444Z"
+        },
+        {
+          "status": "cancelado",
+          "at": "2026-11-22T22:27:23.870Z"
+        }
+      ],
+      "delivery": {
+        "status": "aguardando",
+        "driver": null,
+        "acceptedAt": null,
+        "pickedUpAt": null,
+        "deliveredAt": null,
+        "history": []
+      }
+    }
+  ]
+}
